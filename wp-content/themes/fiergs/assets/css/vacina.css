@@ -1,0 +1,472 @@
+
+.menu-institucional-container-vacina{
+    background-color: #04465C;
+}
+
+.menu-vacina{
+    width: 100%;
+    display: flex;
+    list-style: none;
+}
+.menu-vacina li{
+    font-family: 'Korolev'; 
+    font-size: 1.125rem;
+    padding: .3rem 2rem; 
+}
+.menu-vacina li a{
+    color: #FFFF;
+    transition: all 0.4s ease;
+}
+.menu-vacina li a:hover{
+    color: #04BCAB;
+    transition: all 0.4s ease;
+}
+/* Rectangle 167 */
+.vacina-portifolio {
+    
+background: linear-gradient(97.78deg, #04465C -0.77%, #066381 74.87%, #3E8CA8 99.91%);
+} 
+.vacina-title {
+    color: #066381;
+    font-size: 2.75rem;
+    font-family: "Korolev";
+}
+.vacina-title-2 {
+    color: #066381;
+    font-size: 2.063rem;
+    font-family: "Korolev";
+}
+.vacina-content{
+    font-family: 'Mada',Arial,sans-serif;
+    color: #066381;
+}
+.vacina-sit{
+    color: #459B93;
+    font-family: 'Mada',Arial,sans-serif;
+    font-size: 1.375rem;
+    font-weight: 700;
+
+}
+.vacina-menu{
+    width: 100%;
+    display: flex;
+    list-style: none;  
+    justify-content: center;
+}
+.vacina-menu li{
+    font-family: 'Korolev';   
+    font-size: 1.875rem; 
+}
+.vacina-menu li.active > a { 
+    display: block;
+    color: #066381 !important;
+    padding: .3rem 4rem;
+    border-bottom: 4.5px solid #066381 !important; 
+}
+.vacina-menu li a{
+    display: block;
+    color: #A6A6A6;
+    padding: .3rem 4rem;
+    border-bottom: 4.5px solid #A6A6A6;  
+    transition: all 0.4s ease;
+}
+.vacina-menu li:hover > a {
+    display: block;
+    color: #066381 !important; 
+    border-bottom: 4.5px solid #066381 !important; 
+    transition: all 0.4s ease;
+}
+.vacina-tipo{
+    width: 100%;
+    display: flex;
+    list-style: none;  
+    justify-content: center;
+}
+.vacina-tipo {
+    font-family: "Korolev";
+    font-size: .938rem;
+    font-weight: 600;
+    color: #A6A6A6; 
+} 
+.vacina-tipo li.active > a { 
+    display: block;
+    padding: 0 .8rem 0 .8rem;
+    color: #066381 !important; 
+}     
+
+.vacina-tipo li a{
+    display: block;
+    color: #A6A6A6;
+    padding: 0 .8rem 0 .8rem;
+    transition: all 0.4s ease;
+}
+.vacina-tipo li:hover > a {
+    display: block;
+    color: #066381 !important;  
+    transition: all 0.4s ease;
+}            
+.vacina-card-title{
+    background-color: #066381;
+    text-transform: uppercase;
+    padding: 2rem;
+    border-radius: 30px 30px 0 0;
+    text-align: center;
+    font-size:1.125rem;
+    font-family: 'Korolev';
+    font-weight: 600;
+}
+.vacina-card-content{
+    background-color: #3E8CA8;
+    border-radius: 0 0 30px 30px;
+    padding: 2rem;
+    font-size: .9rem;
+    font-family: 'Mada',Arial,sans-serif;
+    font-weight: 300;
+}
+.vacina-card-btn-more{
+    background-color: #066381;
+    text-transform: uppercase;
+    color: #FFF;
+    border-radius: 30px;
+    padding: .8rem 2rem;
+    font-size:.825rem;
+    font-family: 'Korolev';
+    font-weight: 600;
+}
+.vacina-card-btn-more:hover{
+    color: #FFF;
+    background-color: #033849;
+}
+
+.btn-closed {
+    border-radius: 50%;
+    padding: 0.5em;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #459B93; 
+    background-color: #459B93;  
+    color: #FFF;
+    position: relative;
+  }
+  .btn-closed:hover {
+    border: 2px solid #28726b;
+    background-color: #28726b; 
+  }
+  
+  .btn-closed::before {
+    content: " ";
+    position: absolute;
+    display: block;
+    background-color: #fff; 
+    width: 2px;
+    left: 12px;
+    top: 5px;
+    bottom: 5px;
+    transform: rotate(45deg);
+  }
+  .btn-closed::after {
+    content: " ";
+    position: absolute;
+    display: block;
+    background-color: #fff; 
+    height: 2px;
+    top:12px;
+    left: 5px;
+    right: 5px;
+    transform: rotate(45deg);
+  }
+  .modal-vacina-title{
+    font-family: 'Korolev';
+    font-size: 2.063rem;
+    font-weight: 600;
+    color: #459B93; 
+  }
+  .modal-vacina-content{
+      font-family: 'Mada',Arial,sans-serif;
+      color: #066381;
+  }
+  .modal-content{
+      border-radius: 30px;
+      margin-top: 2rem;
+      background: url('../images/vacina.png') no-repeat center right 20px #FFF;
+      padding: 1rem 1.5rem;
+  }
+  .modal-vacina-excerpt{
+    font-family: 'Mada',Arial,sans-serif;
+    color: #013c50;
+    font-weight: 600;
+
+  }
+  .vacina-buscar{
+    width: 40%;
+    border-radius: 30px;
+    border:2px solid #A6A6A6;
+    padding: .8rem .8rem;
+  }
+  .vacina-buscar::placeholder{
+    font-family: 'Mada',Arial,sans-serif;
+    color: #838383;
+  } 
+  .icon-rtl {
+    padding-right: 25px;
+    background: url("../images/buscar.png") no-repeat center right 15px;
+    background-size: 32px;
+  }
+  .vacina-post-title{
+    font-family: 'Korolev';
+    font-size: 2.75rem;
+    font-weight: 700;
+  }
+  .vacina-post-content{
+    font-family: 'Mada',Arial,sans-serif;
+    font-size: 1.375rem;
+    font-weight: 400;
+  }
+  .vacina-post-link {
+    color: #FFF;
+    border-radius: 30px; 
+    padding: .8rem 1rem;
+    text-transform: uppercase; 
+    border: 2px solid #FFF;
+  }
+  .vacina-post-link:hover{
+    color: #FFF;
+    background-color: #066381;
+    border: 2px solid #066381;
+  }
+  .lgx-item{
+      height: 360px;
+  }
+
+  .vacina-news-title {
+    color: #066381;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Korolev";
+}
+.vacina-news-excerpt {
+    color: #626262;
+    font-size: 1.125rem;
+    font-weight: 400;
+    font-family: "Mada",Arial,sans-serif;
+}
+.vacina-news-date{
+    color: #A6A6A6;
+    font-size: 1.125rem;
+    font-family: "Mada",Arial,sans-serif;
+
+}
+.vacina-news-image{
+    
+border-radius: 30px 30px 0 0;
+width:100%;
+height:240px
+}
+
+.vacina-cit {
+    background-color: #104B74;
+    border-radius:30px;
+    position:relative;
+    top:-170px
+}
+.vacina-cit::after{
+    content: " ";
+    background: url('../images/aspas_120.png') no-repeat; 
+    width: 100%; 
+    height: 100%;
+    bottom: -300px;
+    left: -30px; 
+    position: absolute;
+    display: inline-block;
+    z-index: 1;
+}
+.vacina-cit::before{
+    content: " ";
+    background: url('../images/aspas_120.png') no-repeat; 
+    width: 100%; 
+    height: 100%;
+    top: -300px;
+    right: -20px; 
+    position: absolute;
+    display: inline-block;
+    z-index: 1;transform: rotate(180deg);
+}
+.footer-menu {
+    
+    font-family: 'Korolev'; 
+    font-size: 1.125rem;
+    color: #FFF;
+}
+.footer-menu > div{
+    
+    padding: .4rem 2rem; 
+}
+.footer-title{
+    font-family: 'Korolev';
+    font-size: 18px; 
+    font-weight: 500;
+    color: #FFF;
+}
+.footer-number{
+    font-family: 'Mada',Arial,sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFF;
+}
+.single-title-news{
+    font-family: 'Korolev';
+    color: #104B74;
+    font-size: 50px;
+    font-weight: 700;
+
+}
+.single-date-news{
+    color: #A6A6A6;
+    font-family: "Mada",Arial,sans-serif;
+    font-size: 22px;
+}
+
+.single-content-news{
+    color: #626262;
+    font-family: "Mada",Arial,sans-serif;
+    font-size: 22px;
+}
+
+@media (max-width: 767.98px) {
+    .menu-vacina li{ 
+        font-size: .955rem; 
+    }
+    .vacina-title{
+        font-size: 1.725rem;
+    }
+    .vacina-menu li {
+        font-size: .955rem; 
+    }
+
+    
+.vacina-cit::after{
+    content: " ";
+    background: url('../images/aspas_120.png') no-repeat; 
+    width: 100%; 
+    height: 100%;
+    bottom: -600px;
+    left: -10px; 
+    position: absolute;
+    display: inline-block;
+    z-index: 1;
+}
+.vacina-cit::before{
+    content: " ";
+    background: url('../images/aspas_120.png') no-repeat; 
+    width: 100%; 
+    height: 100%;
+    top: -625px;
+    right: -5px; 
+    position: absolute;
+    display: inline-block;
+    z-index: 1;transform: rotate(180deg);
+}
+.menu-institucional-container-vacina{
+    background-color: #04465C;
+    height: 80px;
+}
+}
+@media (max-width: 767.98px) {
+
+
+    .vacina-cit::after{
+        content: " ";
+        background: url('../images/aspas_120.png') no-repeat; 
+        width: 100%; 
+        height: 100%;
+        bottom: -370px;
+        left: -10px; 
+        position: absolute;
+        display: inline-block;
+        z-index: 1;
+    }
+    .vacina-cit::before{
+        content: " ";
+        background: url('../images/aspas_120.png') no-repeat; 
+        width: 100%; 
+        height: 100%;
+        top: -370px;
+        right: -5px; 
+        position: absolute;
+        display: inline-block;
+        z-index: 1;transform: rotate(180deg);
+    }
+    
+    .vacina-news-title{
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 991.98px) {
+
+
+    .vacina-cit::after{
+        content: " ";
+        background: url('../images/aspas_120.png') no-repeat; 
+        width: 100%; 
+        height: 100%;
+        bottom: -370px;
+        left: -10px; 
+        position: absolute;
+        display: inline-block;
+        z-index: 1;
+    }
+    .vacina-cit::before{
+        content: " ";
+        background: url('../images/aspas_120.png') no-repeat; 
+        width: 100%; 
+        height: 100%;
+        top: -370px;
+        right: -5px; 
+        position: absolute;
+        display: inline-block;
+        z-index: 1;transform: rotate(180deg);
+    }
+    
+}
+@media (max-width: 1199.98px) {
+    
+    .vacina-news-title{
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 1400px) {
+    .vacina-cit::after{
+        content: " ";
+        background: url('../images/aspas_120.png') no-repeat; 
+        width: 100%; 
+        height: 100%;
+        bottom: -370px;
+        left: -10px; 
+        position: absolute;
+        display: inline-block;
+        z-index: 1;
+    }
+    .vacina-cit::before{
+        content: " ";
+        background: url('../images/aspas_120.png') no-repeat; 
+        width: 100%; 
+        height: 100%;
+        top: -370px;
+        right: -5px; 
+        position: absolute;
+        display: inline-block;
+        z-index: 1;transform: rotate(180deg);
+    }
+    
+    .vacina-news-title{
+        font-size: 1.2rem;
+    }
+    
+.vacina-card {
+    width: 25% !important;
+}
+}
+
+.vacina-card {
+    width: 25% !important;
+}
